@@ -14,7 +14,7 @@ const Slider = () => {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_paneerBlog_banner.jpg" className="d-block w-100" alt="..."/>
+      <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/5658ebaa-f296-4121-991c-c2009109e764_1320x376.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src="https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_pastaBlog_banner.jpg" className="d-block w-100" alt="..."/>
