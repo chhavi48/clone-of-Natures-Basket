@@ -37,9 +37,9 @@ const Cards = () => {
 
 <div className='catergory'>
     <div className='row'>
-        <div className='col-sm-1'></div>
+     
         <div className='col-sm-2'>
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card" style={{width: "18rem" ,marginRight:"50%"}}>
   <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Exoticvegetablesweb.png" className="card-img-top" alt="..."/>
 
   <ul className="list-group list-group-flush" style={{fontSize:"13px",marginRight:"40%"}}>
@@ -52,9 +52,49 @@ const Cards = () => {
  
 </div>
         </div>
-        <div className='col-sm-2'></div>
-        <div className='col-sm-2'></div>
-        <div className='col-sm-2'></div>
+        <div className='col-sm-2'>
+        <div className="card" style={{width: "18rem", marginLeft:"50%"}}>
+  <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/coldcutweb.png" className="card-img-top" alt="..."/>
+
+  <ul className="list-group list-group-flush" style={{fontSize:"13px",marginRight:"40%"}}>
+    <li className="list-group" style={{marginTop:"2%",fontSize:"15px"}}>Exotic Vegetables</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Asparagus Artichokes</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Avocados Peppers</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Broccoli Zucchini</li>
+    <li className="list-group" style={{color:"green",marginTop:"2%"}}>View All</li>
+  </ul>
+ 
+</div>
+        </div>
+        <div className='col-sm-2'>
+        <div className="card" style={{width: "18rem" ,marginLeft:"100%"}}>
+  <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/Freshartisinalbreadsweb.png" className="card-img-top" alt="..."/>
+
+  <ul className="list-group list-group-flush" style={{fontSize:"13px",marginRight:"40%"}}>
+    <li className="list-group" style={{marginTop:"2%",fontSize:"15px"}}>Exotic Vegetables</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Asparagus Artichokes</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Avocados Peppers</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Broccoli Zucchini</li>
+    <li className="list-group" style={{color:"green",marginTop:"2%"}}>View All</li>
+  </ul>
+ 
+</div>
+        </div>
+        <div className='col-sm-2'>
+        <div className="card" style={{width: "18rem",marginLeft:"150%"}}>
+  <img src="https://gnbdevcdn.s3.amazonaws.com/Images/Category/dailyessentialsweb.png" className="card-img-top" alt="..."/>
+
+  <ul className="list-group list-group-flush" style={{fontSize:"13px",marginRight:"40%"}}>
+    <li className="list-group" style={{marginTop:"2%",fontSize:"15px"}}>Exotic Vegetables</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Asparagus Artichokes</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Avocados Peppers</li>
+    <li className="list-group" style={{marginTop:"2%"}}>Broccoli Zucchini</li>
+    <li className="list-group" style={{color:"green",marginTop:"2%"}}>View All</li>
+  </ul>
+ 
+</div>
+        </div>
+        <div className='col-sm-1'></div>
     </div>
 </div>
 
