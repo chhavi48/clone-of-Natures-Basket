@@ -17,7 +17,7 @@ const Slider = () => {
       <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/5658ebaa-f296-4121-991c-c2009109e764_1320x376.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
-      <img src="https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_pastaBlog_banner.jpg" className="d-block w-100" alt="..."/>
+      <img src="https://gnbdevcdn.s3-ap-southeast-1.amazonaws.com/Marketing/d8cc09f5-5d68-4853-ae9a-233ceabe3acd.jpg" className="d-block w-100" alt="..."/>
     </div>
     <div className="carousel-item">
       <img src="https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_1320x355-blog2.jpg" className="d-block w-100" alt="..."/>
