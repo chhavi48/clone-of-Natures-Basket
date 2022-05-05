@@ -1,5 +1,8 @@
 import React from 'react'
-
+// import styled from 'styled-components';
+// const backcard=styled.div`
+//   backgeound-image:url("https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg")
+// `;
 const Blogs = () => {
   return (
       <>
@@ -95,6 +98,21 @@ const Blogs = () => {
 </div>
           </div>
 
+      </div>
+
+      <div className='row'>
+
+        <div className='col-sm-8'>
+          <p>Trending Now chhhavui</p>
+          <div className='col-sm-4'>
+                <div style={{ 
+      backgroundImage: `url("https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg")` 
+    }}>
+          </div>
+          </div>
+          <div className='col-sm-4'></div>
+        </div>
+        <div className='col-sm-4'></div>
       </div>
     </>
   )
