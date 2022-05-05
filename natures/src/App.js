@@ -1,9 +1,9 @@
 import './App.css';
-
-function App() {
+import {MainRoutes} from './MainRoutes';
+function App() { 
   return (
-    <div className="App">
-    <h1>hello</h1>
+    <div className='App'>
+    <MainRoutes />
     </div>
   );
 }

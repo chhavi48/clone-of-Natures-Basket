@@ -1,0 +1,27 @@
+.pagesflex{
+    display: flex;
+    margin-top:5px;
+    margin-left:8%;
+    width:100%;
+}
+.searchflex{
+    display: flex;
+    margin-top:4px;
+    margin-left:5%;
+    width:100%;
+}
+.pages{
+margin-right:500px;
+}
+
+.navpages{
+    width: 100%;
+}
+/* @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Roboto&display=swap'); */
+.Link{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-weight:600;
+    color:#393939;
+    font-size: 11px;
+}
