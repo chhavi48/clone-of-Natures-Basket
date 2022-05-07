@@ -103,14 +103,18 @@ const Blogs = () => {
       <div className='row mt-4'>
 
         <div className='col-sm-8'>
-          <p>Trending Now chhhavui</p>
+          <p style={{fontSize:"2px"}}>Trending Now</p>
           <div className='col-sm-4'>
-                <div style={{ 
-      backgroundImage: `url("https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg")` 
-    }}>
+          <div className="card" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg" className="card-img-top" alt="..."/>
+ 
+</div>
+
+
           </div>
+          <div className='col-sm-4'>
+    
           </div>
-          <div className='col-sm-4'></div>
         </div>
         <div className='col-sm-4'>
           <p>CATEGORIES</p>
