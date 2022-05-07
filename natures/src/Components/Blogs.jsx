@@ -100,7 +100,7 @@ const Blogs = () => {
 
       </div>
 
-      <div className='row'>
+      <div className='row mt-4'>
 
         <div className='col-sm-8'>
           <p>Trending Now chhhavui</p>
@@ -112,7 +112,50 @@ const Blogs = () => {
           </div>
           <div className='col-sm-4'></div>
         </div>
-        <div className='col-sm-4'></div>
+        <div className='col-sm-4'>
+          <p>CATEGORIES</p>
+         <p>Baking (11)</p> 
+<p>Beverages (1)</p>
+<p>Breads (9)</p>
+<p>Breakfast Recipes (22)</p>
+<p>Cakes, Cupcakes And Pastries (20)</p>
+<p>Chinese Food (3)</p>
+<p>Continental Food (15)</p>
+<p>Cooking Techniques (26)</p>
+<p>Cuisines (9)</p>
+<p>Dessert Recipes (41)</p>
+<p>Diet Food (43)</p>
+<p>Dinner Recipes (16)</p>
+<p>Dip Recipes (5)</p>
+<p>Easy Recipes (6)</p>
+<p>Easy Recipes (11)</p>
+<p>Festival Recipes (76)</p>
+<p>Food Benefits (71)</p>
+<p>Food Presentation (15)</p>
+<p>Food Recipes (271)</p>
+<p>Food Trends (8)</p>
+<p>Fruit Recipes (49)</p>
+<p>Gift Hampers (19)</p>
+<p>Healthy Dips (6)</p>
+<p>Healthy Food (23)</p>
+<p>Healthy Snack (11)</p>
+<p>Home Remedies (3)</p>
+<p>Indian Food (14)</p>
+<p>Italian Food (12)</p>
+<p>Juicing Recipes (8)</p>
+<p>Lunch Recipes (6)</p>
+<p>Meat Recipes (20)</p>
+<p>Mexican Food (7)</p>
+<p>News (9)</p>
+<p>Non-Vegetarian Recipes (31)</p>
+<p>Party Recipes (23)</p>
+<p>Quick Recipes (27)</p>
+<p>Recipes For Kids (13)</p>
+<p>Rice Recipes (5)</p>
+<p>Seafood Recipes (11)</p>
+<p>seeds (1)</p>
+
+        </div>
       </div>
     </>
   )
