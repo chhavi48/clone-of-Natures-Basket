@@ -1,19 +1,26 @@
 .pagesflex{
     display: flex;
-    margin-top:5px;
+    margin-top:4px;
     margin-left:8%;
     width:100%;
 }
+.auth>p:hover{
+    text-decoration: underline;
+    font-size: 30px;
+}
 .searchflex{
     display: flex;
-    margin-top:4px;
+    margin-top:-15px;
     margin-left:5%;
     width:100%;
 }
 .pages{
-margin-right:500px;
+margin-right:450px;
 }
-
+.pages>span{
+    margin-right:6px;
+    color: #c6c6c6;
+}
 .navpages{
     width: 100%;
 }
@@ -24,4 +31,8 @@ margin-right:500px;
     font-weight:600;
     color:#393939;
     font-size: 11px;
+    margin-right:6px;
+}
+.loginform{
+    margin-top:40px;
 }

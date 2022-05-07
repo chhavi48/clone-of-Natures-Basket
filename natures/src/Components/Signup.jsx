@@ -2,7 +2,7 @@
 export const Signup=()=>{
     return(
         <>
-        Signup
+        <h1>Signup</h1>
         </>
     )
 }

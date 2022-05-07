@@ -17,8 +17,6 @@ return(
         <Route path="/Freshfast" element={<Freshfast />}></Route>
         <Route path="/Storelocater" element={<StoreLocater />}></Route>
         <Route path="/Contactus" element={<Contactus />}></Route>
-        <Route path="/Login" element={<Login />}></Route>
-        <Route path="/Signup" element={<Signup />}></Route>
         <Route path="/Favourite" element={<Favourite />}></Route>
         <Route path="/AddtoCart" element={<AddtoCart />}></Route>
     </Routes>
