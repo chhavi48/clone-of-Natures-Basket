@@ -102,18 +102,63 @@ const Blogs = () => {
 
       <div className='row mt-4'>
 
-        <div className='col-sm-8'>
-          <p style={{fontSize:"2px"}}>Trending Now</p>
+        <div className='col-sm-8' style={{display:"flex"}}>
+     
           <div className='col-sm-4'>
+          <p style={{fontSize:"20px"}}>Trending Now</p>
           <div className="card" style={{width: "19rem"}}>
-  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg" className="card-img-top" alt="..."/>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+<div className="card mt-4" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/08/shutterstock_657892168.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+<div className="card mt-4" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_1518092828-1024x683.jpeg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+<div className="card mt-4" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_1049157986.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+<div className="card mt-4" style={{width: "19rem"}}> 
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/09/shutterstock_1801262779.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
  
 </div>
 
 
           </div>
-          <div className='col-sm-4'>
-    
+          <div className='col-sm-4' style={{marginLeft:"200px"}}>
+          <div className="card mt-5" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/09/shutterstock_1412547623.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+<div className="card mt-4" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/09/shutterstock_630945068.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+<div className="card mt-4" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/08/1408065212.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+<div className="card mt-4" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/08/shutterstock_639667498.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+<div className="card mt-4" style={{width: "19rem"}}>
+  <img src="https://blog.naturesbasket.co.in/wp-content/uploads/2021/09/shutterstock_1412547623.jpg" className="card-img-top" alt="..." style={{width:"400px",height:"200px"}}/>
+ 
+</div>
+
+
           </div>
         </div>
         <div className='col-sm-4'>
@@ -159,6 +204,22 @@ const Blogs = () => {
 <p>Seafood Recipes (11)</p>
 <p>seeds (1)</p>
 
+<p>POPULAR POSTS</p>
+<p>Korean Street Food Recipes for a Cross-Cultural Culinary Experience</p>
+<p>Easy to Cook Egg Recipes You Need to Try on World Egg Day</p>
+<p>9 Days 9 Recipes For A Wholesome Navratri</p>
+<p>4 Coffee Trends to Try on International Coffee Day</p>
+<p>Must-try Recipes To Make On The Occasion of Ganesh Chaturthi</p>
+
+<p>FEATURED RECIPE VIDEOS</p>
+
+   <div className='iframe'>
+   <iframe width="390" height="315" 
+   src="https://www.youtube.com/embed/9h9PYGv9Ams" 
+   title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   </div>
         </div>
       </div>
     </>

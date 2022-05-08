@@ -22,6 +22,9 @@ const Slider = () => {
     <div className="carousel-item">
       <img src="https://www.naturesbasket.co.in/Images/homepageblogbanner/NB_1320x355-blog2.jpg" className="d-block w-100" alt="..."/>
     </div>
+    <div className="carousel-item">
+      <img src="https://d1z88p83zuviay.cloudfront.net/BannerImages/172ece1d-70d5-44d5-a5f4-0d236c1d815a_1320x376.jpg" className="d-block w-100" alt="..."/>
+    </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>

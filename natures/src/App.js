@@ -1,10 +1,12 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import Blogs from './Components/Blogs';
+import Addtocart from './Components/Addtocart';
+// import Blogs from './Components/Blogs';
 // import Slider from './Components/Slider';
 // import Cards from './Components/Cards';
 // import Events from './Components/Events';
+
 function App() {
   return (
     <div className="App">
@@ -12,7 +14,8 @@ function App() {
     {/* <Slider/>
   <Cards/>
   <Events/> */}
-  <Blogs/>
+  {/* <Blogs/> */}
+  <Addtocart/>
     </div>
   );
 }
