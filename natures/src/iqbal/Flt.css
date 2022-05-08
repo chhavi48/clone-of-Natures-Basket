@@ -1,0 +1,45 @@
+.filter{
+    border : 1px solid lightgrey;
+    width: 20pc;
+    height: 500px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.top-nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter-button{
+    /* border: 1px solid yellow; */
+    margin: 10px auto;
+    /* margin-top: 0px; */
+    font-size: 23px;
+  
+}
+.btn-group-item{
+    background-color: white;
+    border: none;
+    color: solid lightblue;
+    cursor: pointer;
+}
+.clbtn{
+ /* font-weight: bold; */
+ background-color: white;
+ color: lightgreen;
+ font-size: 20px;
+ border: none;
+    
+}
+.clbtn:hover{
+    cursor: pointer;
+    
+}
+.btn-group-item:hover {
+    background-color: rgb(80, 145, 80);
+    width: 90%;
+    font-size: 20px;
+    border-radius: 8px;
+    color: white;
+}
