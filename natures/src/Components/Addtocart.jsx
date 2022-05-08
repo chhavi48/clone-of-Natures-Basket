@@ -5,8 +5,8 @@ const Addtocart = () => {
       <>
       <div>Addtocart</div>
       <div className='container' style={{width:"700px",height:"500px" ,border:"2px solid black",marginLeft:"43%"}}>
-      <div className='first' style={{height:"230px"}}>
-         <div className='firstdata mt-3' style={{display:"flex"}}>
+      <div className='first' style={{height:"200px",overflow:"scroll"}}>
+         <div className='firstdata mt-5' style={{display:"flex"}}>
              <img src="https://gnbdevcdn.s3.amazonaws.com/ProductVariantThumbnailImages/17d6b165-a222-4e0e-9d2e-20c34236e277_50x50.jpg"/>
          <p>HA TAPIOCA FLOUR 400g 1.00 Pc</p>
          <button style={{backgroundColor:"green",width:"100px",height:"25px",marginLeft:"200px"}}>- 1 +</button>
@@ -26,8 +26,17 @@ const Addtocart = () => {
          <button style={{backgroundColor:"green",width:"100px",height:"25px",marginLeft:"200px"}}>- 1 +</button>
          <p style={{marginLeft:"20px"}}>₹180</p>
          </div>
-      </div>
-      <div className='second' style={{height:"250px"}}>
+    
+    </div>
+         <div className='data' style={{height:"50px",marginRight:"400px"}}>
+            <p> total price:  ₹514</p>
+            <p> delivery Charge:₹50</p>
+            {/* <button style={{marginLeft:"160%"}}>Proceed to CheckOut</button> */}
+         </div>
+    
+    
+      <div className='second mt-5' style={{height:"230px"}}>
+      <hr></hr>
     <p>HAND-PICKED OFFERS JUST FOR YOU</p>
           <div className='one'>
                  <div className='cart' style={{display:"flex"}}>
