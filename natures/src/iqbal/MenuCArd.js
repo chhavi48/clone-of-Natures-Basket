@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 import "./style.css"
 import  "./CardDetails.css"
 import "./Flt"
-import { CardDetails } from './CardDetails'
-// import { CardDetails } from './CardDetails'
-
 
 export const MenuCard = ({ menuData }) => {
     console.log(menuData)
@@ -13,24 +10,29 @@ export const MenuCard = ({ menuData }) => {
     const showDetails = () =>{
         console.log("you just clicked");
         document.getElementById("data4").innerHTML = `
-        <div className="card_details_maindiv" style="display:flex; width:70vw;justify-content: space-between;">
+        <div className="card_details_maindiv" style="display:flex; width:80vw;justify-content: space-between;font-family: system-ui;">
         <div>
-        <img className='cdimg' src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/144cafa8-fcfb-4e9a-8ec2-bd837694f99c_425x425.jpg" alt="" />
+        <img className='cdimg' style = "border: 1px solid lightgrey; border-radius: 10px; box-shadow: 5px 10px lightgrey;"
+         src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/144cafa8-fcfb-4e9a-8ec2-bd837694f99c_425x425.jpg" alt="" />
         </div>
          <div className="cardchild">
            <h2>NB REGULAR CHEESE PLATTER - 1 Pc</h2>
           
-           <div className="socialicon">
-             <p> <b>Share</b> </p>         
-           <i style={{margin: "15px 0px", fontSize : " 25px"}} class="fa-brands fa-facebook"></i>
-           <i style={{margin: "15px 20px", fontSize : " 25px"}} class="fa-brands fa-twitter"></i>
+           <div className="socialicon"
+           style = "display: flex; justify-content:flex-start;">
+             <p style = "margin-right:8px"> <b>Share</b> </p>         
+           <i style="margin: 20px 10px 0px 0px ; fontSize:35px; " class="fa-brands fa-facebook"></i>
+           <i style="margin: 20px 10px 0px 5px ; fontSize:35px; "  class="fa-brands fa-twitter"></i>
            </div >
              <p>GOUDAX2(FLAVOURS), SMOKED BLACK PEPPER, EDAM</p>
-           <div className="rsandimg">
-             <p className='chprice'>MRP₹533</p>
-             <img className='icimg' src="https://www.naturesbasket.co.in/Images/CartAddBtn.PNG" alt="" />
+           <div className="rsandimg"
+           style= "display: flex; justify-content:flex-start;margin-bottom: 0px;">
+             <p  style = " border: 1px solid lightgrey;border-radius: 6px; padding: 10px;"
+             className='chprice'>MRP ₹533</p>
+             <img  style = "   border-radius: 10px; width: 6pc; height: 2.5pc ; margin-top: 15px;"
+             className='icimg' src="https://www.naturesbasket.co.in/Images/CartAddBtn.PNG" alt="" />
            </div>
-           <p>(Inclusive of all taxes)</p>
+           <p style = "margin: 2px auto 0px auto">(Inclusive of all taxes)</p>
            <hr />
            <p>Know More</p>
            <p>GOUDAX2(FLAVOURS), SMOKED BLACK PEPPER, EDAM</p>
@@ -46,6 +48,7 @@ export const MenuCard = ({ menuData }) => {
     return (
   <>
   <div className='fmain' id='fmainNone'>
+
             <h2>CHEESE, MEAT & FRUIT PLATTERS  <sub><span style={{color:"lightgrey"}}>{menuData.length}producs</span></sub></h2>
             <hr />
             <h3 style={{textAlign:"center"}}> {menuData[0].category}  RECOMMENDED FOR YOU</h3>  
@@ -88,34 +91,3 @@ export const MenuCard = ({ menuData }) => {
 
 
 
-// const CardDetails = () => {  
-//     // console.log(Menu.price)
-//   return (
-//     <>
-//     <div className="card_details_maindiv" >
-//       <div>
-//       <img className='cdimg' src="https://d1z88p83zuviay.cloudfront.net/ProductVariantThumbnailImages/144cafa8-fcfb-4e9a-8ec2-bd837694f99c_425x425.jpg" alt="" />
-//       </div>
-//        <div className="cardchild">
-//          <h2>NB REGULAR CHEESE PLATTER - 1 Pc</h2>
-        
-//          <div className="socialicon">
-//            <p> <b>Share</b> </p>         
-//          <i style={{margin: "15px 0px", fontSize : " 25px"}} class="fa-brands fa-facebook"></i>
-//          <i style={{margin: "15px 20px", fontSize : " 25px"}} class="fa-brands fa-twitter"></i>
-//          </div >
-//            <p>GOUDAX2(FLAVOURS), SMOKED BLACK PEPPER, EDAM</p>
-//          <div className="rsandimg">
-//            <p className='chprice'>MRP₹533</p>
-//            <img className='icimg' src="https://www.naturesbasket.co.in/Images/CartAddBtn.PNG" alt="" />
-//          </div>
-//          <p>(Inclusive of all taxes)</p>
-//          <hr />
-//          <p>Know More</p>
-//          <p>GOUDAX2(FLAVOURS), SMOKED BLACK PEPPER, EDAM</p>
-
-//         </div>
-//     </div>
-//     </>
-//   )
-// }
