@@ -2,12 +2,19 @@
     font-family: system-ui;
     
 }
-.cardimg_icons,.social_icon{
+.cardimg_icons{
     display: flex;
     justify-content: space-between; 
     padding-left: 3pc;   
+    align-items: center;
     
 }
+.social_icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .ftimg{
     margin-left:-15pc;
    
@@ -23,10 +30,12 @@ p,.onlyicon,a{
     cursor: pointer;
 
 }
+.clr{
+    color: black;
+}
 
 .onlyicon>a{
-    margin-left: 10px;
-    margin-top: 30px;
+    margin-right: 10px;
     font-size: 1.5pc;
    
     
@@ -34,6 +43,9 @@ p,.onlyicon,a{
 }
 .last_para{
     padding-left: 3pc;
+}
+hr{
+    margin: 0;
 }
 
 
