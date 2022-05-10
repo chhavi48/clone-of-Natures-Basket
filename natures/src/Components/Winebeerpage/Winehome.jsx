@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import wineData from "./Wine";
 import styles from "./B.modules.css";
 import { useNavigate } from "react-router-dom";
+import './style.css';
 
-export default function Sebar121() {
+export default function Winehome() {
 const [data, setData] = useState(wineData);
 let navigate = useNavigate()
 const filterResult = (cateitem) =>{
@@ -17,7 +18,7 @@ const filterResult = (cateitem) =>{
 
 
   return (
-    <>
+    <div className="winepage">
       <div className="primary">
       <div className={styles.uprimg} width = "100%">
         <img
@@ -260,6 +261,6 @@ const filterResult = (cateitem) =>{
         </div>
       </div>
       </div>
-    </>
+    </div>
   );
 }
