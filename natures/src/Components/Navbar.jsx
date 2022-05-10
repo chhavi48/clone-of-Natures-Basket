@@ -67,7 +67,7 @@ setHoverlogin(true)
         {registerstatus && < Signup />}
         {/* <Signup /> */}
             <Navcontent>
-                <div><img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" /></div>
+                <Link to='/'><div><img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" /></div></Link>
                 <div className='navpages'>
                 <div className={styles.pagesflex}>
                     <div className={styles.pages}> 
@@ -118,11 +118,11 @@ setHoverlogin(true)
   </button>
  {dropdown && <Dropdown onMouseOver={handleMouseOver}/>} 
 </div>
-<div><a href='#'>PAST PURCHASES</a></div>
+<div><Link to='Pastpurchases'>PAST PURCHASES</Link></div>
 <div><a href='#'>GIFTING</a></div>
 <div><a href='#'>REWARDS</a></div>
 <div><Link to='/Blogs'>BLOG</Link></div>
-<div><a href='#'>OFFERS</a></div>
+<div><Link to='Offers'>OFFERS</Link></div>
 <div><a href='#'>CONNOISSEUR'S SELECTION</a></div>
 <div><a href='#'>BOOK STORE VISIT</a></div>
             </div>

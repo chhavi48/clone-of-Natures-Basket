@@ -14,6 +14,8 @@ import { Cheese } from "./Components/cheesepage/src/Chesepage/Cheese";
 import Winehome from "./Components/Winebeerpage/Winehome";
 import Productdetail from "./Components/Fruitandvegies/Productdetail";
 import Fruitandvegies from "./Components/Fruitandvegies/Fruitandvegies";
+import Pastpurchases from "./Components/Pastpurchsespage/Pastpurchases";
+import Offers from "./Components/Offerspage/Offers";
 
 export const MainRoutes=()=>{
 return(
@@ -26,11 +28,14 @@ return(
         <Route path="/Contactus" element={<Contactus />}></Route>
         <Route path="/Favourite" element={<Favourite />}></Route>
         <Route path="/AddtoCart" element={<AddtoCart />}></Route>
-        <Route path="/Blogs" element={<Blogs />}></Route>
+        <Route exact path="/Blogs" element={<Blogs />}></Route>
         <Route path="/Cheese" element={<Cheese />}></Route>
         <Route path="/Winehome" element={<Winehome />}></Route>
         <Route path="/Fruitandvegies" element={<Fruitandvegies/>}></Route>
         <Route path="/Productdetail/:id/:title/:rs/:qt" element={<Productdetail />}></Route>
+        <Route path="/Pastpurchases" element={<Pastpurchases />}></Route>
+        <Route exact path="/Offers" element={<Offers />}></Route>
+
     </Routes>
     </>
 )

@@ -1,12 +1,11 @@
 import React from 'react'
-// import styled from 'styled-components';
-// const backcard=styled.div`
-//   backgeound-image:url("https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg")
-// `;
+import styled from 'styled-components';
+const backcard=styled.div`
+  backgeound-image:url("https://blog.naturesbasket.co.in/wp-content/uploads/2021/10/shutterstock_386792203.jpg")
+`;
 const Blogs = () => {
   return (
       <>
-    <div>Blogs</div>
       <div className='row'>
           <div className='col-sm-12'>
           <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
