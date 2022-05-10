@@ -2,17 +2,17 @@
 we have cloned the Nature’s Basket Website this is an E-Commerce Website for helping this site you can buy the nature-related product and find the details of the product .
 Creators:
 
-Chhavi Srivastva
+<a href="https://www.linkedin.com/in/chhavisrivastva/">Chhavi Srivastva</a>
 
-Narayan Chatalwar
+<a href="https://www.linkedin.com/in/narayan-chatalwar-09905121a/">Narayan Chatalwar</a>
 
-Yash Tomar
+<a href="https://www.linkedin.com/in/yash-tomar-b58995199/">Yash Tomar</a>
 
-Shiva Datta
+<a href="https://www.linkedin.com/in/shiva-datta/">Shiva Datta</a>
 
-Iqbal Ali
+<a href="https://github.com/Ninza1">Iqbal Ali</a>
 
-Bipin Mishra
+<a href="https://www.linkedin.com/in/bipin-mishra-14a136112/">Bipin Mishra</a>
 We are in Unit-4 from Web-16 Batch and students of Masai School
 
 at the end of unit Masai team is assigned a project and the project is based on the technology we are learned in the whole unit in this project we are used React- Redux and React -Router-Dom.<br/>
@@ -26,4 +26,14 @@ this is the front of our project created by Yash Tomar and in this part we have 
 When you click on the login button redirected on the login page
 
 this is is our landing page created by chhavi Srivastava (me🙃)
-<img arc="https://miro.medium.com/max/1050/1*MMN_H9-nGmugWIXUjdF-kg.png"/>
+<img src="https://miro.medium.com/max/1050/1*MMN_H9-nGmugWIXUjdF-kg.png"/><br/><br/>
+<img src="https://miro.medium.com/max/1050/1*eDGWC5cXPS9w2hg6aawBGw.png"/><br/><br/>
+and we have added the one new page (blogs ) some snipped blog page
+
+<img src="https://miro.medium.com/max/1050/1*QvYypl37g58a3c1UkkNKnA.png"/><br/><br/>
+you can also check the category of product and the part is created by Narayan
+<img src="https://miro.medium.com/max/1050/1*2Q9udJhrrS_IaeRbDVL8pQ.jpeg"/>
+<img src="https://miro.medium.com/max/1050/1*gVQShUYWxLt9SdX9y8cpFA.jpeg"/>
+
+<h3>Thank You🙂🙂🙂 for giving me your valueable time</h3>
+
