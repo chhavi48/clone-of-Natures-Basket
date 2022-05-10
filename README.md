@@ -35,5 +35,5 @@ you can also check the category of product and the part is created by Narayan
 <img src="https://miro.medium.com/max/1050/1*2Q9udJhrrS_IaeRbDVL8pQ.jpeg"/>
 <img src="https://miro.medium.com/max/1050/1*gVQShUYWxLt9SdX9y8cpFA.jpeg"/>
 
-<h3>Thank You🙂🙂🙂 for giving me your valueable time</h3>
+<h3>Thank You🙂🙂🙂 for giving me your valueable time.</h3>
 
