@@ -14,9 +14,9 @@ div>.pin{
 .auth>p{
     margin-right:4px;
 }
-.auth{
-    margin-left:12px;
-}
+/* .auth>.login{
+    margin-right:12px;
+} */
 .search-bar{
     cursor:pointer;
 }
@@ -66,6 +66,7 @@ height:35px;
 .dropdown-content>div{
     display:flex;
     justify-content: space-between;
+    background-color: white;
 }
 .dropdown-content>div>div{
     margin-right:5%;
@@ -145,4 +146,86 @@ border-radius:5px;
 width:97%;
 margin:auto;
 height:37px;
+}
+.loginIcons,.mobile-icon{
+    color:#b72361;
+    height: 25px;
+    margin-top: 7px;
+    margin-right:10px;
+}
+.mobile-no>input{
+    border:0px;
+    outline:none;
+}
+.continue-btn{
+    width:100px;
+    background-color: #83ba3c;
+}
+.email,.password,.mobile-no,.otp{
+ display: flex;
+ border:1px 
+ #9f9f9f solid;
+ width:250px;
+ height:40px;
+ background-color: white;
+ margin-right:40px;
+}
+.email>div>input,.password>div>input{
+    border:0px;
+    outline:none;
+}
+.loginform{
+    display:flex;
+    margin:auto;
+    width:900px;
+    /* padding-top:20px; */
+}
+.loginform>.loginbtn>input{
+    width:80px;
+    height:40px;
+    margin-right:40px;
+    border:0px;
+    background-color:#83ba3c;
+    border-radius:2px;
+}
+.loginform>button{
+height:40px;
+border:0px;
+background-color: inherit;
+color:#69a45d;
+}
+.cancelicon{
+    margin-left:97%;
+    width:30px;
+    height:30px;
+    cursor: pointer;
+}
+.logout{
+   border:1px solid;
+   width:100px;
+   height:50px;
+   font-size:16px;
+   margin-left:95%;
+   margin-top: -2%;
+   background-size:cover;
+}
+.logout>button{
+    border:0px;
+    font-size:15px;
+    background-color: white;
+}
+.logout>button:hover{
+    text-decoration: underline;
+}
+.loginform>.mobile{
+    border:1px solid #9f9f9f;
+    width:150px;
+    height:40px;
+    background-color: #e8f0fe;
+    margin-right:40px;
+}
+.otp>input{
+    border:0px;
+    outline:none;
+    width:170px;
 }

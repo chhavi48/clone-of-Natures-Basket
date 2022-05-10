@@ -8,12 +8,14 @@ import { Favourite } from "./Components/Cart/favourite";
 import { Contactus } from "./Components/Navpages/Contactus";
 import { Freshfast } from "./Components/Navpages/Freshfast";
 import { StoreLocater } from "./Components/Navpages/Storelocater";
+import { Homepage } from "./Components/Homepage";
 
 export const MainRoutes=()=>{
 return(
     <>
+    <Navbar />
     <Routes>
-        <Route path="/" element={<Navbar />}></Route>
+        <Route path="/" element={<Homepage />}></Route>
         <Route path="/Freshfast" element={<Freshfast />}></Route>
         <Route path="/Storelocater" element={<StoreLocater />}></Route>
         <Route path="/Contactus" element={<Contactus />}></Route>

@@ -1,5 +1,5 @@
 import '../style.css';
-import { hovercheck } from '../../Redux/NavbarPages/action';
+import { hovercheck } from '../../Redux/Login/action';
 import {useDispatch} from 'react-redux';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

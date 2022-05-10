@@ -19,3 +19,10 @@ width:600px;
 margin:auto;
 // margin-top:10px;
 `
+export const Signupform=styled.div`
+// display:flex;
+width:500px;
+// margin-top:50px;
+margin:auto;
+
+`

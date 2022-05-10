@@ -1,37 +1,67 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 import {Link } from 'react-router-dom';
 import {Login} from './Login';
 import { Signup } from './Signup';
 import styles from './style.module.css';
 import { Nav } from './stlyed';
 import { Navcontent } from './stlyed';
-import { Infoline } from './stlyed';
 import './style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar,faCartPlus, faCaretDown} from '@fortawesome/free-solid-svg-icons'
 import { Dropdown } from './Navpages/dropdown';
 import { useDispatch, useSelector } from 'react-redux';
-import { hovercheck} from '../Redux/NavbarPages/action';
+import { Loginstatus,Registerstatus} from '../Redux/Login/action';
+// import { Registerstatus } from '../Redux/Signup/action';
 
 export const Navbar =()=>{
     const [dropdown,setDropdown]=useState(false);
-    const [authstatus,setAuthstatus]=useState(false);
-    const status=useSelector(state=>state.status);
+    const [flag,setFlag]=useState(true);
+    const [hoverlogin,setHoverlogin]=useState(false)
+    const authstatus=useSelector((state)=>state.auth.authstatus);
+    const registerstatus=useSelector((state)=>state.auth.registerstatus);
     const dispatch=useDispatch();
+
     const handleClick=()=>{
-       setAuthstatus(true);
+    dispatch(Loginstatus(true));
     }
+    const handleRegister=()=>{
+        dispatch(Registerstatus(true ));
+    }
+    console.log(authstatus,'authstatus');
+console.log(registerstatus,'-registerstatus');
     const handleMouseOver=()=>{  
         setDropdown(!false);      
     }
     const handleMouseOut=()=>{
         setDropdown(false)
     }
-    
+    var storedata=JSON.parse(localStorage.getItem('userdata'));
+    var userstatus=false;
+    if(storedata===null){
+          userstatus=false;
+    }else{
+          userstatus=true;
+    }
+    const handlelogged=()=>{
+
+    }
+    const handleMouseover=()=>{
+setHoverlogin(true)
+    }
+    const handleMouseout=()=>{
+        setHoverlogin(false)
+            }
+    const handlelogout=()=>{
+       localStorage.clear();
+       setFlag(!flag);
+    }
+    // setFlag(true);
     return (
         <>
         <Nav>
         {authstatus && < Login />}
+        {registerstatus && < Signup />}
+        {/* <Signup /> */}
             <Navcontent>
                 <div><img src="https://www.naturesbasket.co.in/Images/logosnew.png?v=2" /></div>
                 <div className='navpages'>
@@ -47,11 +77,13 @@ export const Navbar =()=>{
                     <span>|</span>
                     </div>
 
-                    <div style={{display:'flex'}} className='auth'>
-                        <p onClick={handleClick} id="login">Login |</p> 
-                        <p >Signup</p>
+                    <div style={{display:'flex'}} className='auth' onMouseOver={handleMouseover} onMouseOut={handleMouseout}>
+                        {!userstatus? (<p onClick={handleClick} className="login">Login |</p> ):
+                        (<p onClick={handlelogged} onMouseOver={handleMouseover} onMouseOut={handleMouseout}className="login" style={{fontSize:'15px'}}>{storedata.email}</p>)} 
+                        {!userstatus && <p onClick={handleRegister}>Register</p>}
                     </div>
                     </div>
+                   {hoverlogin && <div>{userstatus && <div className='logout' onMouseOver={handleMouseover} onMouseOut={handleMouseout}><button onClick={handlelogout} >Logout</button></div> }</div> }
 
                     <div className={styles.searchflex}>
                     <button className='pin'>Pin</button>

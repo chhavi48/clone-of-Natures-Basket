@@ -35,4 +35,5 @@ margin-right:450px;
 }
 .loginform{
     margin-top:40px;
+    display: flex;
 }

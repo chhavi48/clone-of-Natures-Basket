@@ -1,5 +1,6 @@
 import './App.css';
-import {MainRoutes} from './MainRoutes';
+import {MainRoutes} from './MainRoutes'; 
+// import {Counter} from './counter';
 function App() { 
   return (
 
