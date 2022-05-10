@@ -16,6 +16,7 @@ import Productdetail from "./Components/Fruitandvegies/Productdetail";
 import Fruitandvegies from "./Components/Fruitandvegies/Fruitandvegies";
 import Pastpurchases from "./Components/Pastpurchsespage/Pastpurchases";
 import Offers from "./Components/Offerspage/Offers";
+import Footer from './Components/Footer/Footer';
 
 export const MainRoutes=()=>{
 return(
@@ -37,6 +38,7 @@ return(
         <Route exact path="/Offers" element={<Offers />}></Route>
 
     </Routes>
+    <Footer />
     </>
 )
 }

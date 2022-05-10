@@ -1,0 +1,14 @@
+.Trending-box{ 
+    width:500px;
+    height:400px;
+     border:2px solid;
+     z-index:2
+}
+.Trending-box>div{
+    margin-left:100px;;
+    cursor: pointer;
+    z-index:2
+}
+.trend-heading{
+    text-align: center;
+}

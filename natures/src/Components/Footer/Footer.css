@@ -1,0 +1,55 @@
+.footer_container{
+    font-family: system-ui;
+    
+}
+.cardimg_icons{
+    display: flex;
+    justify-content: space-between; 
+    padding-left: 3pc;   
+    align-items: center;
+    
+}
+.social_icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ftimg{
+    margin-left:-15pc;
+   
+}
+
+.footer_middle{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3pc;
+}
+p,.onlyicon,a{
+    color: grey;
+    cursor: pointer;
+
+}
+.clr{
+    color: black;
+}
+
+.onlyicon>a{
+    margin-right: 10px;
+    font-size: 1.5pc;
+   
+    
+    
+}
+.last_para{
+    padding-left: 3pc;
+}
+hr{
+    margin: 0;
+}
+
+
+
+
+
+

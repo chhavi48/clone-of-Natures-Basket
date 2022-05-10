@@ -11,11 +11,13 @@ import { faStar,faCartPlus, faCaretDown} from '@fortawesome/free-solid-svg-icons
 import { Dropdown } from './Navpages/dropdown';
 import { useDispatch, useSelector } from 'react-redux';
 import { Loginstatus,Registerstatus} from '../Redux/Login/action';
+import { Trending } from './Navpages/Trending';
 // import { Registerstatus } from '../Redux/Signup/action';
 
 export const Navbar =()=>{
     const [dropdown,setDropdown]=useState(false);
     const [flag,setFlag]=useState(true);
+    const [trend,setTrend]=useState(false);
     const [cart,setCart]=useState(false);
     const [hoverlogin,setHoverlogin]=useState(false)
     const authstatus=useSelector((state)=>state.auth.authstatus);
@@ -59,6 +61,12 @@ setHoverlogin(true)
     const handleaddcart=()=>{
        setCart(!cart);
     }
+    const handleSearch=()=>{
+setTrend(true);
+    }
+    const handleSearchout=()=>{
+        setTrend(false);
+    }
     // setFlag(true);
     return (
         <>
@@ -101,7 +109,8 @@ setHoverlogin(true)
                         <option value='Kolkata'>Kolkata</option>
                         <option value='Raigarh-mh'>Raigarh MH</option>
                     </select>
-                    <input type="text" placeholder='start shopping...' />
+                    <input type="text" onMouseOver={handleSearch} onMouseOut={handleSearchout} placeholder='start shopping...' />
+                   {/* <div> {trend && <Trending />}</div> */}
                     <div className='search-bar'><img src="https://www.naturesbasket.co.in/Images/search-button.jpg" style={{height:'37px'}}/> </div>
             <div className='cart'>
                <div><Link to="/Favourite" ><FontAwesomeIcon icon={faStar} style={{color:'#83ba3c',height:'20px'}}/></Link></div> 

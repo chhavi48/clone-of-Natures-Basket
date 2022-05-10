@@ -2,7 +2,6 @@
 export const AddtoCart=()=>{
     return(
         <>
-        <div>Addtocart</div>
         <div className='container' style={{width:"700px",height:"500px" ,border:"2px solid black",marginLeft:"43%"}}>
         <div className='first' style={{height:"200px",overflow:"scroll"}}>
            <div className='firstdata mt-5' style={{display:"flex"}}>

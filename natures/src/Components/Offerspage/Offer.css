@@ -122,7 +122,7 @@ h2{
   color:black;
   font-weight: bolder;
 } */
-.container > div:hover{
+.offercontainer > div:hover{
   /* position: static; */
   cursor: pointer;
 
