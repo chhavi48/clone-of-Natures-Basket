@@ -10,7 +10,7 @@ import { Freshfast } from "./Components/Navpages/Freshfast";
 import { StoreLocater } from "./Components/Navpages/Storelocater";
 import { Homepage } from "./Components/Homepage";
 import Blogs from './Components/homepages/Blogs';
-
+import { Cheese } from "./Components/Chesepage/Cheese";
 export const MainRoutes=()=>{
 return(
     <>
@@ -23,6 +23,7 @@ return(
         <Route path="/Favourite" element={<Favourite />}></Route>
         <Route path="/AddtoCart" element={<AddtoCart />}></Route>
         <Route path="/Blogs" element={<Blogs />}></Route>
+        <Route path="/Cheese" element={<Cheese />}></Route>
     </Routes>
     </>
 )
