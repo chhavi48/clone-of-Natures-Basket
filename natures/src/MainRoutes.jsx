@@ -11,7 +11,10 @@ import { StoreLocater } from "./Components/Navpages/Storelocater";
 import { Homepage } from "./Components/Homepage";
 import Blogs from './Components/homepages/Blogs';
 import { Cheese } from "./Components/cheesepage/src/Chesepage/Cheese";
-import Winehome from './Components/Winebeerpage/Winehome';
+import Winehome from "./Components/Winebeerpage/Winehome";
+import Productdetail from "./Components/Fruitandvegies/Productdetail";
+import Fruitandvegies from "./Components/Fruitandvegies/Fruitandvegies";
+
 export const MainRoutes=()=>{
 return(
     <>
@@ -26,6 +29,8 @@ return(
         <Route path="/Blogs" element={<Blogs />}></Route>
         <Route path="/Cheese" element={<Cheese />}></Route>
         <Route path="/Winehome" element={<Winehome />}></Route>
+        <Route path="/Fruitandvegies" element={<Fruitandvegies/>}></Route>
+        <Route path="/Productdetail/:id/:title/:rs/:qt" element={<Productdetail />}></Route>
     </Routes>
     </>
 )

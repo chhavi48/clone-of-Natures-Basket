@@ -19,7 +19,7 @@ export const Dropdown=()=>{
        <div className="dropdown-content">
             <div><div><Link to='/Winehome' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Wine & Beer </Link></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
             <div> <div><a href='#'onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Gift Hampers</a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
-            <div><div><a href='#'onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Fruit & Vegetables</a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
+            <div><div><Link to='/Fruitandvegies' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Fruit & Vegetables</Link></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
             <div><div><Link to='/cheese' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Cheese, Meat & Fruit Platters</Link></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
             <div><div><a href='#'onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Delicatessen & Cheese</a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
             <div><div><a href='#'onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>International Cuisine</a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>

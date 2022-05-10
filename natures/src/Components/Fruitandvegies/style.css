@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* //Fruit and the vegitables section .....start...... */
+
+
+
+.main121{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.header121{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.devide121{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.clearall{
+  color: green;
+}
+.upperpart121{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: -20px;
+  gap: 600px;
+}
+.sidebar121{
+  border: 2px solid rgb(202, 202, 202);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+  height: fit-content;
+}
+.frouitsheading121{
+  display: flex;
+  padding-left: 20px;
+
+}
+.frouitsheading121>p{
+  color: gray;
+  margin-top: 20px;
+}
+.relevance121{
+ margin-top: 20px !important;
+ border: none;
+ color: gray;
+}
+.topsection121{
+  color: gray;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.fruitstypes{
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.fruitstypes::-webkit-scrollbar{
+  width: 5px;
+}
+.fruitstypes::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.fruitstypes::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+.fruitstypes>p:hover{
+  background-color: #84bd3c;
+  padding: 5px;
+  transition: 0.2s;
+  transition-delay: 0.2s;
+}
+.brandtypes>label>p:hover{
+  color:#84bd3c;
+  
+}
+.brandtypes>label>p{
+ margin-bottom: -20px
+  
+}
+.brandtypes{
+  max-height: 200px;
+  overflow-y: scroll;
+}
+.brandtypes::-webkit-scrollbar{
+  width: 5px;
+}
+.brandtypes::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.brandtypes::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
+.brandtypes1:hover{
+  color: #84bd3c;
+}
+
+
+/* //products listing */
+
+
+.card121{
+  
+  width: 251px;
+  height: 445px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.card121:hover{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transition-delay: 0.2s;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.card121>img{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 20px;
+  height: 251px;
+  object-fit: contain;
+}
+.buttonandprice{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+}
+/* .allcards{
+  display: grid;
+  grid-template-columns: 251px 251px 251px 251px ;
+  gap: 20px;
+} */
+.maincontainer121{
+  display: grid;
+  grid-template-columns: 251px 251px 251px 251px ;
+  gap: 20px;
+  
+}
+
+
+
+
+
+
+/* //single product page */
+
+
+.imagediv121{
+  border: 1px solid rgb(204, 202, 202);
+  height:425px;
+  width: 425px;
+  object-fit: contain;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.upperbox121{
+  display: flex;
+  gap: 100px;
+  margin-top: 20px;
+  /* align-items: center; */
+  
+}
+.details121{
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  /* align-items: center; */
+}
+.buttonandprice121{
+  display: flex;
+  gap: 10px;
+}
+
+/* //Fruit and the vegitables section ......end..... */
+
+
