@@ -16,6 +16,7 @@ import { Loginstatus,Registerstatus} from '../Redux/Login/action';
 export const Navbar =()=>{
     const [dropdown,setDropdown]=useState(false);
     const [flag,setFlag]=useState(true);
+    const [cart,setCart]=useState(false);
     const [hoverlogin,setHoverlogin]=useState(false)
     const authstatus=useSelector((state)=>state.auth.authstatus);
     const registerstatus=useSelector((state)=>state.auth.registerstatus);
@@ -54,6 +55,9 @@ setHoverlogin(true)
     const handlelogout=()=>{
        localStorage.clear();
        setFlag(!flag);
+    }
+    const handleaddcart=()=>{
+       setCart(!cart);
     }
     // setFlag(true);
     return (
@@ -102,7 +106,7 @@ setHoverlogin(true)
             <div className='cart'>
                <div><Link to="/Favourite" ><FontAwesomeIcon icon={faStar} style={{color:'#83ba3c',height:'20px'}}/></Link></div> 
                 <div><span >|</span></div>
-                <div> <Link to="/AddtoCart" ><FontAwesomeIcon icon={faCartPlus} style={{color:'#83ba3c',height:'20px'}} /></Link></div>
+                <div className='addcart' onClick={handleaddcart}> <Link to="/AddtoCart" ><FontAwesomeIcon icon={faCartPlus} style={{color:'#83ba3c',height:'20px'}} /></Link></div>
             </div>
                 </div>
             </div>
@@ -117,7 +121,7 @@ setHoverlogin(true)
 <div><a href='#'>PAST PURCHASES</a></div>
 <div><a href='#'>GIFTING</a></div>
 <div><a href='#'>REWARDS</a></div>
-<div><a href='#'>BLOG</a></div>
+<div><Link to='/Blogs'>BLOG</Link></div>
 <div><a href='#'>OFFERS</a></div>
 <div><a href='#'>CONNOISSEUR'S SELECTION</a></div>
 <div><a href='#'>BOOK STORE VISIT</a></div>

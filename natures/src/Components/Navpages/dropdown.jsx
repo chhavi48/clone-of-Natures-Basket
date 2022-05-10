@@ -16,7 +16,7 @@ export const Dropdown=()=>{
    return(
        <>
        <div className="dropdown-content">
-            <div><div><a href='#' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Wine & Beer </a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
+            {/* <div><div><Link to='/' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Wine & Beer </Link></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div> */}
             <div> <div><a href='#'onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Gift Hampers</a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
             <div><div><a href='#'onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Fruit & Vegetables</a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
             <div><div><a href='#'onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>Cheese, Meat & Fruit Platters</a></div><div><FontAwesomeIcon className='icons' icon={faAngleRight}/></div></div>
