@@ -2,7 +2,7 @@ import React from 'react'
 
 const Cards = () => {
   return (
-   <>
+   <div style={{width:'99%'}}>
    <div className='outer mt-4' style={{display:"flex"}}>
        <div className='row'>
          
@@ -37,7 +37,7 @@ const Cards = () => {
            </div>
        </div>
 
-<div className='catergory'>
+<div className='catergory' style={{marginLeft:'90px'}}>
     <div className='row'>
      
         <div className='col-sm-2'>
@@ -100,7 +100,7 @@ const Cards = () => {
     </div>
 </div>
 
-   </>
+   </div>
   )
 }
 

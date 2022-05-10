@@ -2,14 +2,14 @@ import React from 'react'
 
 const Events = () => {
   return (
-    <>
+    <div style={{width:'99%'}}>
        <div className='row mt-2'>
            <div className='col-sm-12'>
                <p style={{fontSize:"24px"}}>OUR EVENTS</p>
            </div>
        </div>
 
-     <div className='row'>
+     <div className='row' style={{marginLeft:'100px'}}>
          <div className='col-sm-3'>
          <div className="card" style={{width: "20rem",borderBottom:"4px solid gray"}}>
   <img src="https://www.naturesbasket.co.in/Images/PhotoGallery/SanjeevKapoor_at_KolkataGallary.jpg" className="card-img-top" alt="img"/>
@@ -121,7 +121,7 @@ const Events = () => {
            </div>
        </div>
       </div> 
-    </>
+    </div>
   )
 }
 
