@@ -3,8 +3,8 @@ import "./style.css"
 import Menu from "./manuApi"
 import { MenuCard } from './MenuCArd'
 import Flt from './Flt'
-import './CardDetails.css'
-import { CardDetails } from './CardDetails'
+// import './CardDetails.css'
+// import { CardDetails } from './CardDetails'
 // import { showDetails} from './MenuCArd'
 
 const uniqueList = [

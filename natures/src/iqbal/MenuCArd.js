@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./style.css"
-import  "./CardDetails.css"
+// import  "./CardDetails.css"
 import "./Flt"
 
 export const MenuCard = ({ menuData }) => {

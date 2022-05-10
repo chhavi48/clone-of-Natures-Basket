@@ -1,8 +1,9 @@
 import './App.css';
 
-import { Restorant } from "./component/Basics/Restorant";
+import { Restorant } from "./iqbal/Restorant";
 import Slider from './Components/Slider';
 import Cards from './Components/Cards';
+import Footer from './iqbal/Footer';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     <h1>hello</h1>
     {/* <Slider/>
   <Cards/> */}
-  <Restorant/>
+  {/* <Restorant/> */}
+  <Footer />
     </div>
     
     </>
