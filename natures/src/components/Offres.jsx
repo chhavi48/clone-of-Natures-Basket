@@ -1,7 +1,7 @@
 import React from "react";
 import { data } from "./data";
 
-const GroceryDetails = () => {
+const Offers = () => {
   console.log(data);
 
   return (
@@ -39,4 +39,4 @@ const GroceryDetails = () => {
     </div>
   );
 };
-export default GroceryDetails;
+export default Offers;

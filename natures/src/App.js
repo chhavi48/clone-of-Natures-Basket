@@ -1,15 +1,17 @@
-import './App.css';
-// import "bootstrap/dist/css/bootstrap.min.css";
-// import "bootstrap/dist/js/bootstrap.min.js";
-import Slider from './Components/Slider';
-import Cards from './Components/Cards';
+// import "./App.css";
+  import "./slider.css";
+
+  import Offers from './components/Offres';
+ import "bootstrap/dist/css/bootstrap.min.css";
+ import "bootstrap/dist/js/bootstrap.min.js";
+ import Pastpurchases from "./components/Pastpurchases.jsx";
 
 function App() {
   return (
     <div className="App">
-    <h1>hello</h1>
-    <Slider/>
-  <Cards/>
+      <Offers/>
+      {/* <CardButton/> */}
+      {/* <Pastpurchases  /> */}
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Slider = () => {
+const Pastpurchases = () => {
   return (
     <>
       <div className="shiva">
@@ -432,4 +432,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default Pastpurchases;

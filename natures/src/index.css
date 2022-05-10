@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +11,158 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  display:grid;
+  grid-template-columns: repeat(4,20%);
+ grid-gap:15px;
+ padding:10px;
+ margin-left:35px;
+ margin-top:40px;
+ 
+ 
+  
+}
+.center{
+  text-align:center;
+   border: 2px solid green; 
+  padding:5px;
+  border-radius:10px;
+  margin-bottom:30px;
+
+} 
+.header{
+  
+  color:grey;
+  text-align: start;
+  padding:10px;
+  
+
+
+}
+
+
+.shiva{
+  display:flex;
+  gap:13px;
+  margin-top: 15px;
+  justify-content: center;
+
+
+}
+.container > div{
+  /* border:2px solid grey; */
+  border-radius:10px;
+  padding:10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-left:200px;
+  width:94%;
+  
+  
+
+}
+
+h2{
+  margin-left:25px;
+}
+.ith{
+  text-decoration: line-through;
+  border:2px solid lightgrey;
+  border-radius: 6px;
+  color:black;
+  padding:7px;
+  width:100px;
+
+
+}
+.it{
+  border:2px solid lightgray;
+  border-radius: 6px;
+  color:black;
+   padding:7px; 
+  width:100px;
+  height:20px;
+   
+  
+  /* padding-bottom: -10px; */
+ 
+  
+}
+img{
+  width:100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px 10px 10px 10px;
+}
+.clname{
+  color:grey;
+  text-align: center;
+}
+
+.bhar{
+  border:2px solid red;
+  border-radius:10px;
+  font-size: 13px;
+  text-align: center;
+
+}
+.AddToCart{
+  width:70px;
+  height:30px;
+  margin-top:26px;
+  margin-left: 5px;
+  border:2px solid green;
+  background-color: green;
+  color:white;
+  font-size: 15px;
+  border-radius: 9px;
+}
+.buy{
+  text-align: center;
+  font-size:14px;
+  color:lightcoral;
+  /* margin-top: -10px; */
+  margin-bottom: -27px;
+}
+p{
+  text-align: center;
+  color:black;
+  font-weight: bolder;
+}
+.container > div:hover{
+  /* position: static; */
+  cursor: pointer;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.AddToCart:hover{
+  cursor: pointer;
+}
+
+.htype{
+  display: flex;
+  gap:10px;
+  padding: 10px;
+  margin-bottom: -70px;
+}
+.deal{
+  border:2px solid rgb(183,23,97);
+  background-color: rgb(183,23,97);
+
+  color:white;
+  font-size: 13px;
+  padding:8px;
+  width:110px;
+
+
+}
+.totprod{
+  color:grey;
+  margin-left: 4px;
+  margin-top: 30px;
+
+}
+.lat{
+  margin-top: 30px;
+}
+
+
