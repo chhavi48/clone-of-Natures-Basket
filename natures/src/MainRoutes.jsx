@@ -10,7 +10,8 @@ import { Freshfast } from "./Components/Navpages/Freshfast";
 import { StoreLocater } from "./Components/Navpages/Storelocater";
 import { Homepage } from "./Components/Homepage";
 import Blogs from './Components/homepages/Blogs';
-import { Cheese } from "./Components/Chesepage/Cheese";
+import { Cheese } from "./Components/cheesepage/src/Chesepage/Cheese";
+import Sebar121 from './Components/Winebeerpage/Winehome';
 export const MainRoutes=()=>{
 return(
     <>
@@ -24,6 +25,7 @@ return(
         <Route path="/AddtoCart" element={<AddtoCart />}></Route>
         <Route path="/Blogs" element={<Blogs />}></Route>
         <Route path="/Cheese" element={<Cheese />}></Route>
+        <Route path="/Sebar121" element={<Sebar121 />}></Route>
     </Routes>
     </>
 )
